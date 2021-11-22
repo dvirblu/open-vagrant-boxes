@@ -1,7 +1,8 @@
 # Docker-friendly Vagrant base boxes
 
 <img src="https://www.vagrantup.com/img/logo-hashicorp.svg" height="150">
-<img src="https://www.docker.com/sites/default/files/social/docker_facebook_share.png" height="150"> <img src="https://assets.ubuntu.com/v1/57a889f6-ubuntu-logo112.png" height="150">
+<img src="https://www.docker.com/sites/default/files/social/docker_facebook_share.png" height="150"> 
+<img src="https://assets.ubuntu.com/v1/8dd99b80-ubuntu-logo14.png" height="150">
 
 This repository contains definitions for various Docker-friendly [Vagrant](http://www.vagrantup.com/) base boxes. There are boxes that are based on Ubuntu 12.04 64-bit, and boxes that are based on Ubuntu 14.04 64-bit. They differ from the ones provided by vagrantup.com in the following ways:
 

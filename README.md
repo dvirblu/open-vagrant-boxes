@@ -1,4 +1,4 @@
-# Docker-friendly Vagrant base boxes
+# Install Docker on the Ubuntu18.04 or Centos7 box
 
 <img src="https://www.vagrantup.com/img/logo-hashicorp.svg" height="150">
 <img src="https://www.docker.com/sites/default/files/social/docker_facebook_share.png" height="150"> 

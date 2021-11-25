@@ -7,16 +7,7 @@
 
 
 
-This repository contains definitions for various Docker-friendly [Vagrant](http://www.vagrantup.com/) base boxes. There are boxes that are based on Ubuntu 12.04 64-bit, and boxes that are based on Ubuntu 14.04 64-bit. They differ from the ones provided by vagrantup.com in the following ways:
 
- * We provide 2 virtual CPUs by default, so that the boxes can make better use of multicore hosts.
- * We provide more RAM by default: 1 GB.
- * We provide a bigger virtual hard disk: around 40 GB.
- * We use LVM so that partitioning is easier.
- * On the Ubuntu 12.04 version, our default kernel version is 3.13 (instead of 3.2), so that you can use [Docker](http://www.docker.io/) out-of-the-box.
- * [The memory cgroup and swap accounting](http://docs.docker.io/en/latest/installation/ubuntulinux/#memory-and-swap-accounting) are turned on, for some Docker features.
- * Chef is installed via the Ubuntu packages that they provide, instead of via RubyGems. This way the box doesn't have to come with Ruby by default, making the environment cleaner.
- * Our VMWare Fusion boxes recompile VMWare Tools on every kernel upgrade, so that Shared Folders keep working even if you change the kernel.
 
 These base boxes are automatically built from [Veewee](https://github.com/jedi4ever/veewee) definitions. These definitions make building boxes quick and unambigious. The entire building process is described in the definitions; no manual intervention is required.
 
@@ -87,7 +78,7 @@ These Vagrant boxes are provided to you by [Phusion](http://www.phusion.nl/). Yo
 
 ## Building the boxes yourself
 
-### Setup your environment
+### To build the box, follow these steps:
 
  1. Install [Vagrant](http://www.vagrantup.com/).
  2. Install [VirtualBox](https://www.virtualbox.org/) or VMWare Fusion.
@@ -107,3 +98,4 @@ VMWare Fusion:
 
     bundle exec rake vmware_fusion:ubuntu-14.04-amd64:all
     bundle exec rake vmware_fusion:ubuntu-12.04-amd64:all
+https://raw.githubusercontent.com/fideloper/Vaprobash/1.4.2/scripts
